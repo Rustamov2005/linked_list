@@ -58,3 +58,4 @@ class Odamlar:
 
 People = Odamlar("People", "Smith")
 print(People.full_eded())
+print("Odamlar juda kop ozb da")
