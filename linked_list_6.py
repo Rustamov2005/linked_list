@@ -59,3 +59,12 @@ print(l_list.printList())
 #LinkedListning append method
 l_list.append(56987)
 print(l_list.printList())
+
+data = []
+for i in range(1, 16):
+    data.append(i)
+
+l_list.head = Node(data[0])
+for j in data[1::]:
+    l_list.append(j)
+print(l_list.printList())
