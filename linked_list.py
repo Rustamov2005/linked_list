@@ -42,20 +42,11 @@ class LinkedList:
         last.next = new_node
 
 
-class Odamlar:
-    def __init__(self, first_name, last_name):
-        self.first_name = first_name
-        self.last_name = last_name
-
-    def full_eded(self):
-        self.first_name
-        self.last_name
-        data = [self.first_name, self.last_name]
-        return data
-
-    def __str__(self):
-        return f"{self.first_name} {self.last_name}"
-
-People = Odamlar("People", "Smith")
-print(People.full_eded())
-print("Odamlar juda kop ozb da")
+a = Node(5)
+b = Node(6)
+c = Node(7)
+l_list = LinkedList()
+l_list.head = a
+a.next = b
+b.next = c
+print(l_list.printList())
